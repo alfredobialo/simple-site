@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    height: 100vh;
+}
+div.red-box, div.white-box{
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.red-box {
+    background-color: #9d0808;
+    color: white !important;
+    width: 50%;
+
+
+}
+
+div.white-box {
+    background-color: #fff;
+    color: #676565 !important;
+    width: 50%;
+
+}
+p.hello{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+p.info{
+    font-size: 2.6rem;
+    margin-top: 8px;
+    margin-bottom : 5rem;
+}
+
+button.btn-red {
+    background-color: #d92820;
+    /*background-image: linear-gradient(180deg, #d23b32, #9d1008);*/
+    box-shadow: 1px 0 6px #4f4e4e;
+    color : white;
+    padding : 1.2rem 3rem;
+    font-size: 1.0rem;
+    border-radius: 6px;
+    border: none;
+    transition: all linear 400ms;
+    cursor: pointer;
+}
+button.btn-red:hover, button.btn-red:focus {
+    background-color: #ff1e11;
+    background-image: linear-gradient(180deg, #b0251f, #de0d08);
+}
+
+div.create-plan{
+    margin-left: 8rem;
+}
+div.align-right{
+    justify-content: flex-end;
+}
+div.content-left{
+    margin-right: 10rem;
+}

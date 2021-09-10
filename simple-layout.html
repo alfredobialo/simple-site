@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Layout</title>
+    <style type="text/css">
+        body{
+            font-size: 1.6rem;
+            font-family: Verdana, arial, Tahoma, sans-serif;
+        }
+        div.container{
+            height : 500px;
+            width : 60%;
+            background-color: #ebefef;
+            box-shadow: 1px 0px 12px #8c8891;
+            padding : 20px;
+            position: relative;
+        }
+        div.circle{
+            background-color: #36ab2e;
+            color : white;
+            width:230px;
+            height:230px;
+            padding:20px;
+            border-radius: 50%;
+            display:flex;
+            position:absolute;
+            bottom: 20px;
+            right:20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div.container2{
+            height : 900px;
+            width : 70%;
+            background-color: #f6f2e4;
+            box-shadow: 1px 0px 12px #8c8891;
+            padding : 20px;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        div.circle2{
+            background-color: #96063a;
+            color : white;
+            width:190px;
+            height:190px;
+            padding:20px;
+            border-radius: 50%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <p>Hello World</p>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="circle2">
+            <p>Hello World</p>
+        </div>
+    </div>
+</body>
+</html>
