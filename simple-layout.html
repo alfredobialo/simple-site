@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple Layout</title>
+    <link rel="stylesheet" href="css/bootstrap5/bootstrap.css">
     <style type="text/css">
         body{
             font-size: 1.6rem;
             font-family: Verdana, arial, Tahoma, sans-serif;
         }
-        div.container{
+      /*  div.container{
             height : 500px;
             width : 60%;
             background-color: #ebefef;
@@ -51,11 +52,30 @@
             display:flex;
             justify-content: center;
             align-items: center;
-        }
+        }*/
+      h1
+      {
+          color : #258772;
+          font-size: 2rem;
+          border-bottom : 2px dotted #b9b8b8;
+          margin-bottom: 20px;
+      }
+      h4 span{
+          color : red;
+      }
+      span{
+          background-color: transparent;
+      }
+      
+      div#chioma-div p
+      {
+          color: #ff24b3;
+          text-transform: capitalize;
+      }
     </style>
 </head>
 <body>
-    <div class="container">
+   <!-- <div class="container">
         <div class="circle">
             <p>Hello World</p>
         </div>
@@ -65,6 +85,33 @@
         <div class="circle2">
             <p>Hello World</p>
         </div>
+    </div>-->
+
+<div class="container">
+    <h1 class="news-headline">News Headline</h1>
+    <div class="news-list-container">
+        <div class="news mb-3 p-3">
+            <h4 class="text-warning">Tinubu Stole <span>Obi's</span> Mandate</h4>
+            <span>yhfbvukaefve ak </span>
+        </div>
+        <div class="news mb-3 p-3">
+            <h4>Kidnappers Everywhere in <span>Imo State</span></h4>
+            <span>yhfbvukaefve ak </span>
+        </div>
+        <div class="news mb-3 p-3">
+            <h4>Hope Uzordima also Stole LP's Gov. Mandate</h4>
+            <span>yhfbvukaefve ak </span>
+        </div>
+        <span></span>
+        <button class="btn-outline-primary btn">Subscribe</button> 
     </div>
+    <div id="chioma-div">
+        <p>chioma iwuh</p>
+        <h1>Am an H1 Element</h1> Am Learning HTML
+        <span>This a New SPAN</span> <p>This a Paragraph</p>
+    </div> 
+</div>
+
+
 </body>
 </html>
